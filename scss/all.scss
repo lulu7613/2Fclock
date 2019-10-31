@@ -2,11 +2,60 @@
 
 // color
 $primary: #293B29;
-
+$light: #fff;
 
 
 /* ------- 主檔案 ------- */
 
 body {
   background-color: $primary;
+  font-family: 'Microsoft JhengHei', Helvetica, Arial, sans-serif;
+  color: $light;
+}
+
+.wrap {
+  width: 500px;
+  margin: 20px auto;
+
+  .clock-number {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .clock {
+    width: 100%;
+    height: 420px;
+    background: url(../img/clock-bg.svg) center center no-repeat;
+    position: relative;
+
+    .hour-hand {
+      width: 70px;
+      height: 100px;
+      background: url(../img/hour-hand.svg) 0 0 no-repeat;
+
+      position: absolute;
+      top: 48%;
+      left: 50%;
+    }
+
+    .minute-hand {
+      width: 70px;
+      height: 100px;
+      background: url(../img/minute-hand.svg) 0 0 no-repeat;
+
+      position: absolute;
+      top: 48%;
+      left: 49.5%;
+    }
+
+    .second-hand {
+      width: 70px;
+      height: 100px;
+      background: url(../img/second-hand.svg) 0 0 no-repeat;
+
+      position: absolute;
+      top: 48%;
+      left: 48.5%;
+    }
+  }
 }
