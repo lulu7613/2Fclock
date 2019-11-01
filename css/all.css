@@ -29,8 +29,10 @@ body {
   height: 100px;
   background: url(../img/hour-hand.svg) 0 0 no-repeat;
   position: absolute;
-  top: 48%;
+  top: 51%;
   left: 50%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
 }
 
 .wrap .clock .minute-hand {
@@ -38,16 +40,20 @@ body {
   height: 100px;
   background: url(../img/minute-hand.svg) 0 0 no-repeat;
   position: absolute;
-  top: 48%;
-  left: 49.5%;
+  top: 51%;
+  left: 50%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
 }
 
 .wrap .clock .second-hand {
   width: 70px;
-  height: 100px;
+  height: 150px;
   background: url(../img/second-hand.svg) 0 0 no-repeat;
   position: absolute;
-  top: 48%;
-  left: 48.5%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
 }
 /*# sourceMappingURL=all.css.map */

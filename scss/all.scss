@@ -34,8 +34,10 @@ body {
       background: url(../img/hour-hand.svg) 0 0 no-repeat;
 
       position: absolute;
-      top: 48%;
+      top: 51%;
       left: 50%;
+
+      transform-origin: 0 0;
     }
 
     .minute-hand {
@@ -44,18 +46,22 @@ body {
       background: url(../img/minute-hand.svg) 0 0 no-repeat;
 
       position: absolute;
-      top: 48%;
-      left: 49.5%;
+      top: 51%;
+      left: 50%;
+
+      transform-origin: 0 0;
     }
 
     .second-hand {
       width: 70px;
-      height: 100px;
+      height: 150px;
       background: url(../img/second-hand.svg) 0 0 no-repeat;
 
       position: absolute;
-      top: 48%;
-      left: 48.5%;
+      top: 50%;
+      left: 50%;
+
+      transform-origin: 0 0;
     }
   }
 }
